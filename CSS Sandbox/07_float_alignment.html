@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>float and Alignment</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      .container {
+        max-width: 960px;
+        margin: auto;
+      }
+      .clear {
+        clear: both;
+      }
+      .box1 {
+        background-color: #f4f4f4;
+        border: 2px solid black;
+      }
+      .box1 p {
+        text-align: center;
+        text-align: justify;
+      }
+      #box-2 {
+        float: left;
+        width: 69%;
+      }
+      #box-3 {
+        float: right;
+        width: 30%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div id="box1" class="box1">
+        <h3>Heading</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit corrupti
+          illo ipsum esse pariatur assumenda reiciendis blanditiis saepe eveniet
+          numquam, facere asperiores ad perferendis suscipit, neque autem
+          molestiae? Exercitationem, excepturi? Lorem ipsum dolor, sit amet
+          consectetur adipisicing elit. Magni expedita mollitia, in nobis
+          deserunt adipisci! Iure, corrupti eius tempore officiis est odit
+          voluptatibus aliquid sequi, dicta fugiat itaque quaerat porro.
+        </p>
+      </div>
+      <div id="box-2" class="box1">
+        <h3>Heading</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit corrupti
+          illo ipsum esse pariatur assumenda reiciendis blanditiis saepe eveniet
+          numquam, facere asperiores ad perferendis suscipit, neque autem
+          molestiae? Exercitationem, excepturi?
+        </p>
+      </div>
+      <div id="box-3" class="box1">
+        <h3>Heading</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit corrupti
+          illo ipsum esse pariatur assumenda reiciendis blanditiis saepe eveniet
+          numquam, facere asperiores ad perferendis suscipit, neque autem
+          molestiae? Exercitationem, excepturi?
+        </p>
+      </div>
+      <div class="clear"></div>
+      <div class="box1">
+        <h3>Heading</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit corrupti
+          illo ipsum esse pariatur assumenda reiciendis blanditiis saepe eveniet
+          numquam, facere asperiores ad perferendis suscipit, neque autem
+          molestiae? Exercitationem, excepturi?
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
